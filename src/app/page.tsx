@@ -49,7 +49,7 @@ export default function LandingPage() {
             description="Streamline your logistics, maximize your loads, and focus on the road ahead with our elite dispatch team."
             background={{ variant: "sparkles-gradient" }}
             buttons={[{ text: "Get a Quote", href: "#contact" }]}
-            imageSrc="http://img.b2bpic.net/free-photo/side-view-man-looking-truck_23-2149426499.jpg"
+            imageSrc="http://img.b2bpic.net/free-photo/side-view-man-looking-truck_23-2149426499.jpg?_wi=1"
           />
         </div>
 
@@ -115,7 +115,7 @@ export default function LandingPage() {
                 textboxLayout="default"
                 useInvertedBackground={false}
                 blogs={[
-                    { id: "1", category: "Logistics", title: "How to Optimize Fuel Costs", excerpt: "Discover the best strategies to minimize fuel consumption on long hauls.", imageSrc: "http://img.b2bpic.net/free-photo/side-view-man-looking-truck_23-2149426499.jpg", authorName: "Admin", authorAvatar: "", date: "2024-05-10" }
+                    { id: "1", category: "Logistics", title: "How to Optimize Fuel Costs", excerpt: "Discover the best strategies to minimize fuel consumption on long hauls.", imageSrc: "http://img.b2bpic.net/free-photo/side-view-man-looking-truck_23-2149426499.jpg?_wi=2", authorName: "Admin", authorAvatar: "", date: "2024-05-10" }
                 ]}
             />
         </div>
