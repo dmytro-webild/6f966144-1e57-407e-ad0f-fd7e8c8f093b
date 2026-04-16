@@ -61,6 +61,7 @@ export default function LandingPage() {
               { icon: ShieldCheck, label: "Support Availability", value: "24/7" },
               { icon: Zap, label: "Efficiency Gain", value: "25%" }
             ]}
+            useInvertedBackground={false}
           />
         </div>
 
@@ -70,6 +71,7 @@ export default function LandingPage() {
             description="Everything you need to keep your fleet operational and profitable."
             textboxLayout="split"
             animationType="slide-up"
+            useInvertedBackground={false}
             features={[
               { title: "Smart Load Planning", description: "Optimized routes for maximum efficiency.", media: { imageSrc: "http://img.b2bpic.net/free-photo/young-man-working-warehouse_23-2149128283.jpg" }, items: [{ icon: Truck, text: "Real-time tracking" }, { icon: BarChart3, text: "Revenue insights" }], reverse: false },
               { title: "Aggressive Negotiation", description: "We fight for the best possible rates.", media: { imageSrc: "http://img.b2bpic.net/free-photo/japanese-subway-system-passenger-information-display-screen_23-2148954795.jpg" }, items: [{ icon: MessageSquareText, text: "Broker relations" }, { icon: ShieldCheck, text: "Contract auditing" }], reverse: true }
@@ -81,6 +83,7 @@ export default function LandingPage() {
             <MetricCardFourteen
                 title="Data-Driven Performance"
                 tag="Results"
+                useInvertedBackground={false}
                 metrics={[
                     { id: "1", value: "$12M+", description: "Annual Managed Freight" },
                     { id: "2", value: "98%", description: "Customer Retention" },
@@ -96,6 +99,7 @@ export default function LandingPage() {
                 showRating={true}
                 animationType="slide-up"
                 textboxLayout="default"
+                useInvertedBackground={false}
                 testimonials={[
                     { id: "1", name: "Alex R.", handle: "@OwnerOperator", testimonial: "The dispatch team here is unmatched. They consistently find the highest paying loads.", rating: 5 },
                     { id: "2", name: "Maria S.", handle: "@FleetMgr", testimonial: "Seamless communication and professional support around the clock.", rating: 5 }
@@ -109,6 +113,7 @@ export default function LandingPage() {
                 description="The latest news and tips for independent owner-operators."
                 animationType="slide-up"
                 textboxLayout="default"
+                useInvertedBackground={false}
                 blogs={[
                     { id: "1", category: "Logistics", title: "How to Optimize Fuel Costs", excerpt: "Discover the best strategies to minimize fuel consumption on long hauls.", imageSrc: "http://img.b2bpic.net/free-photo/side-view-man-looking-truck_23-2149426499.jpg", authorName: "Admin", authorAvatar: "", date: "2024-05-10" }
                 ]}
@@ -125,6 +130,7 @@ export default function LandingPage() {
             ]}
             faqsAnimation="slide-up"
             textboxLayout="split"
+            useInvertedBackground={false}
           />
         </div>
 
@@ -134,6 +140,7 @@ export default function LandingPage() {
             title="Ready for a better experience?"
             description="Send us your details and get a customized load evaluation today."
             background={{ variant: "gradient-bars" }}
+            useInvertedBackground={false}
           />
         </div>
 
