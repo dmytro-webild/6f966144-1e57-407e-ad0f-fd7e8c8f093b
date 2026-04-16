@@ -36,7 +36,7 @@ export default function LandingPage() {
               { name: "FAQ", id: "faq" },
               { name: "Contact", id: "contact" }
             ]}
-            brandName="SwiftDispatch"
+            brandName="Freight Republic LLC"
           />
         </div>
 
@@ -156,7 +156,7 @@ export default function LandingPage() {
 
         <div id="footer" data-section="footer">
           <FooterBaseCard
-            logoText="SwiftDispatch"
+            logoText="Freight Republic LLC"
             columns={[
               {
                 title: "Services",                items: [
